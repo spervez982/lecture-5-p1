@@ -1,0 +1,11 @@
+abstract class PayCalculator { 
+    private double PayRate; //dollars per hour 
+
+    public double computePay(double hours){
+        return hours * PayRate;
+
+            
+    }
+
+}
+
